@@ -1,5 +1,5 @@
 # WebRAG-mini - A URL-Based Question Answering System
-WebRAG-mini is a Streamlit-based application that allows users to extract and answer questions from the content of any website. The tool leverages LangChain's document loaders, text splitters, OpenAI embeddings, and FAISS vector stores to provide a seamless question-answering experience.
+WebRAG-mini is a local Streamlit web application that allows users to extract and answer questions from local docuemnts, websites or SQL databases in one place. I developed a strategic control flow pronpt that dynamically selects the most appropriate Large Language Model (LLM) for each question, ensuring accurate and relevant responses. In technical terms it leverages LangChain's document loaders, text splitters, OpenAI embeddings, and FAISS vector stores to provide a seamless question-answering experience. 
 
 ![WebRAG-mini](image.png)
 
